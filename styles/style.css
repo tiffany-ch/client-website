@@ -1,0 +1,186 @@
+body {
+  font-size: 10px;
+  background-color: #f7eee4;
+  padding: 16px 0px 0px;
+  font-family: Nunito Sans, sans-serif;
+}
+
+/* HEADER + HERO */
+
+   /* MARK: NAV 
+   */
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 60px 16px;
+    margin-bottom: 16px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;   /* Removes the underline */
+  transition: color 0.2s;  /* Smooth color change on hover */
+}
+
+  /* MARK: HERO
+   */
+
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 16px 60px 80px;
+    gap: 50px;
+}
+
+h1 {
+    font-family: Raleway, sans-serif;  
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 1.1;   /* Tighter line-height for big headings */
+    margin-bottom: 8px;
+}
+
+p {
+  font-family: Nunito Sans, sans-serif;
+  margin-bottom: 20px;
+}
+
+img {
+  height: auto;
+  object-fit: cover;
+}
+
+.hero img {
+  width: 40vw;
+  aspect-ratio: 1 / 1;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 25px 70px;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* MARK: CTA
+ */
+
+ .cta-section {
+  margin: 60px 60px 60px;
+  border: solid 1px black;
+  padding: 48px 80px;
+  display: flex; 
+  justify-content: center;
+  align-content: center;
+}
+
+/* MARK: ABOUT
+*/
+
+.container{
+    display: flex;
+    padding: 16px 60px 80px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.container img{
+  width: 40vw;
+  aspect-ratio: 1 / 1;
+  padding: 0 50px;
+}
+
+
+/* MARK: CLASSES 
+*/
+
+.classes {
+  background-color: white;
+  display: flex;
+  line-height: 2;
+}
+
+.box {
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* MARK: QUOTE 
+*/
+.quote-section {
+  padding: 80px 200px;
+}
+ 
+.quote-section blockquote {
+  line-height: 1;
+  margin-bottom: 16px;
+  font-family: Raleway, sans-serif;  
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+}
+ 
+.quote-section .attribution {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;  
+  font-size: 20px;
+  text-align: center;
+}
+
+/* MARK: FOOTER
+ */
+ footer {
+  background-color: #1F2937;
+  padding: 32px 120px;
+  text-align: center;
+  color: #E5E7EB;
+  font-size: 16px;
+}
+
+.footer-image {
+  width: 20vw;
+  height: auto;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 16px;
+  list-style: none;
+}
+
+.footer-links a {
+  color: #E5E7EB;
+  text-decoration: none;
+  transition: color 0.2s;
+}
